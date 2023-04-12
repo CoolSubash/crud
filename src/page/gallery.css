@@ -1,0 +1,55 @@
+.crewmate-card {
+    flex-basis:30%;
+    width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s linear;
+  }
+  .crewmate-card:hover{
+    background-color: aqua;
+  }
+  .gallery{
+    width: 90%;
+    margin:50px  auto;
+  }
+  .gallery-heading{
+    text-align: center;
+  }
+  .gallery-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #000;
+  }
+  p{
+    margin: 8px 0px;
+    color: #000;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #3E8E41;
+  }
+  
+  .post_info{
+    text-decoration: none;
+  }

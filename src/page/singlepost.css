@@ -1,0 +1,38 @@
+.post {
+    border: 1px solid #ccc;
+    padding: 20px;
+   
+    width: 80%;
+    margin: 40px auto;
+  }
+  .loading-state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+  }
+  
+  .post h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    margin: 0;
+  }
+  
+  .post p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .btn{
+    gap: 8px;
+    display: flex;
+  }
+  .delete{
+    background-color: red;
+  }
+  .delete:hover{
+    background-color: red;
+  }

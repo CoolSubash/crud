@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.link_decoration{
+  text-decoration: none;
+  color: black;
+}
+.home{
+  background-image: url("https://images.unsplash.com/photo-1601314167099-232775b3d6fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+.section-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+.section-home button{
+  background-color: aqua;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  margin-top: 8px;
+}
